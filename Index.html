@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather Dash Board App</h1>
+        <!-- Search box -->
+        <div class="search-Box">
+             <input type="text" id="search-input" placeholder=" search a city" />
+            <button id= "search-btn">Search</button>
+
+            <select name="" id="unit-toggle">
+                
+                //corrected metics
+                <option value="metric">C</option>
+                <option value="imperial">F</option>
+         </select>       
+        </div>
+        <!-- Error -->
+         <p id="error-msg"></p>
+
+        <!-- Weather cards -->
+         <div id="weather-cards"></div>
+    </div>
+    <script src="sript.js"></script>
+</body>
+
+</html>
