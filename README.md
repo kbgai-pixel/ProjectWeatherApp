@@ -51,3 +51,6 @@ This project uses the OpenWeatherMap 5-day forecast API and filters the results 
 ## License
 
 This project is for educational and personal use.
+
+Author
+Khadijah Haliru
